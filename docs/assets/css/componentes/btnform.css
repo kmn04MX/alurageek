@@ -1,0 +1,19 @@
+.btnform{
+    margin-top: 10px;
+    width: 155px;
+    height: 48px;
+    border: 2px solid var(--color-secundary);
+    background-color: var(--color-secundary);
+    color: var(--color-bg-third);
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.btnform:hover{
+    color: var(--color-secundary);
+    background-color: var(--color-bg-third);
+    font-weight: bold;
+    border: 2px solid var(--color-secundary);
+    transition: all 0.25s;
+    cursor: pointer;
+  }

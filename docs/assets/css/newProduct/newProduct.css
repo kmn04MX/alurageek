@@ -1,0 +1,34 @@
+.newproduct{
+    background-color: var(--color-bg-primary);
+}
+
+.newproduct__container{
+    margin-top: 20px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.newproduct__title{
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 37px;
+    color: var(--color-primary);
+}
+
+.form__textarea--product--width{
+    resize: vertical;
+}
+
+.btnform--newproduct__width{
+    width: 100%;
+}
+
+@media screen and (min-width:1024px){
+}
+
+@media screen and (min-width:1024px){
+    .newproduct__container{
+        width: 100%;
+        max-width: 500px;
+    }
+}    

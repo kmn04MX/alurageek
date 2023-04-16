@@ -1,0 +1,45 @@
+.hero{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url('../../images/main/Hero.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: calc(50vh - 72px);
+}
+
+.hero__container{
+    padding-top: calc(35vh - 100px);
+    padding-bottom: calc(15vh - 40px);
+    margin-top: 20px;
+}
+
+.hero__title{
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: var(--color-bg-third);
+}
+
+.hero__subtitle{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--color-bg-third);
+    margin-top: 10px;
+}
+
+.btnlink--hero__button{
+    margin-top: 5px;
+}
+
+@media screen and (min-width:768px){
+    .hero{
+        min-height: calc(70vh - 72px);
+    }
+
+    .hero__container{
+        padding-top: calc(50vh - 100px);
+        
+    }
+}
+
+@media screen and (min-width: 1024px){
+
+}

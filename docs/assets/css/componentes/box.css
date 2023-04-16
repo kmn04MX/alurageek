@@ -1,0 +1,44 @@
+
+.box{
+    width: calc(50% - 5px);
+    margin-top: 15px;
+}
+
+.box__image{
+    width: 100%;
+}
+
+.box__name{
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: var(--color-primary);
+
+}
+
+.box__price{
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: var(--color-primary);
+
+}
+.box__arrow{
+    color: var(--color-secundary);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+}
+
+@media screen and (min-width:768px){
+    .box{
+        width: calc(25% - 5px);
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .box{
+       /*  width: calc(16.6% - 5px); */
+    }
+}

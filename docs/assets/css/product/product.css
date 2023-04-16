@@ -1,0 +1,62 @@
+.product{
+    background-color: var(--color-bg-primary);
+}
+
+.product__container{
+    padding-bottom: 50px;
+}
+
+.product__starwars{
+    margin-top: 30px;
+}
+.product__diversos{
+    margin-top: 50px;
+}
+.product__consolas{
+    margin-top: 50px;
+}
+
+.product__header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.product__title{
+    color: var(--color-primary);
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+
+}
+
+.product__button{
+    color: var(--color-secundary);
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    margin: auto 0;
+    text-decoration: none;
+}
+
+.product__icon{
+    font-size: 16px;
+    margin: auto 0;
+    margin-left: 4px;
+}
+
+.product__content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+@media screen and (min-width:768px){
+
+}
+
+@media screen and (min-width: 1024px){
+
+}

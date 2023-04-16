@@ -1,0 +1,52 @@
+@import url("./reset.css");
+@import url("./variables.css");
+
+*{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: var( --font-family-main);
+}
+
+section, main, header, footer{
+    display: block;    
+}
+
+
+ol, ul,li {
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    margin: 0 auto;
+    width: 94%;
+    max-width: 1400px;
+    padding-top: 20px;
+}
+
+.tudo{
+    overflow: hidden;
+    min-width: 320px;
+}
+
+main{
+    width: 100%;
+
+}
+
+fieldset{
+    border: 0;
+}
+
+@media screen and (min-width:1024px){
+    .container{
+        width: 78.8%;
+    }
+}
+

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Alurageek</title>
+    <script src="https://kit.fontawesome.com/0c5cd1c852.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./assets/css/componentes/btnlink.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/componentes/btnform.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/componentes/box.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/componentes/input.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/componentes/textarea.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/base/main.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/header/header.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/hero/hero.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/product/product.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/footer/footer.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/rodapie/rodapie.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/login/login.css">
+</head>
+<body>
+    <div class="tudo">
+        <header class="header">
+            <div class="container header__container">
+                <div class="header__left">
+                    <img class="header__logo" src="./assets/images/logo/Logo.png" alt="Logo de Alurageek">
+                    <div class="header__search">
+                        <input class="header__input" type="text" placeholder="¿Qué desea buscar?"><i class="header__icon__search fa-solid fa-magnifying-glass"></i><i class="header__icon fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                <!-- <div class="header__right">
+                    <a class="btnlink btnlink--header__button" href="./login.html">Login</a>
+                </div> -->
+            </div>
+        </header>
+        <section class="login">
+            <div class="container login__container">
+                <h3 class="login__title">Iniciar sesión</h3>
+                <form action="" class="login__form" data-tipo="contacto" name="contacto">
+                    <fieldset>
+                        <div class="form__inputs">
+                            <input type="text" class="form__input" id="nombrelogin" name="nombre" placeholder="Nombre" data-tipo="nombre" required maxlength="50" autocomplete="off" title="Solo pueden ser hasta 50 caracteres">
+                            <label for="nombrelogin" class="form__input--label">Nombre</label>
+                            <span class="form__input__message__error">Este campo no es valido</span>
+                        </div>
+                        <div class="form__inputs">
+                            <input type="password" class="form__input" id="password" name="password" placeholder="Password" data-tipo="password" required autocomplete="off"><!-- pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$" -->
+                            <label for="password" class="form__input--label">Password</label>
+                            <span class="form__input__message__error">Este campo no es valido</span>
+                        </div>
+                    </fieldset>
+                    <button type="submit" class="btnform btnform--login__width" onclick="location.href='./allProducts.html'">Entrar</button>
+                </form>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container footer__container">
+                <div class="footer__about">
+                    <img class="footer__logo" src="./assets/images/logo/Logo.png" alt="">
+                    <ul class="footer__list">
+                        <li class="footer__list--item"><a href="" class="footer__link">Quines Somos</a></li>
+                        <li class="footer__list--item"><a href="" class="footer__link">Política de privacidad</a></li>
+                        <li class="footer__list--item"><a href="" class="footer__link">Programa de fidelidad</a></li>
+                        <li class="footer__list--item"><a href="" class="footer__link">Nuestras tiendas</a></li>
+                        <li class="footer__list--item"><a href="" class="footer__link">Quiero ser franquiciado</a></li>
+                        <li class="footer__list--item"><a href="" class="footer__link">Anúncie Aquí</a></li>
+                    </ul>
+                </div>
+                <div class="footer__contacto">
+                    <h3 class="footer__title">Hable con nosotros</h3>
+                    <form action="" class="footer__form" data-tipo="contacto" name="contacto">
+                        <fieldset>
+                            <div class="form__inputs">
+                                <input type="text" class="form__input" id="nombrecontacto" name="nombre" placeholder="Nombre" data-tipo="nombre" required maxlength="50" autocomplete="off" title="Solo pueden ser hasta 50 caracteres">
+                                <label for="nombrecontacto" class="form__input--label">Nombre</label>
+                                <span class="form__input__message__error">Este campo no es valido</span>
+                            </div>
+                            <div class="form__textareas">
+                                <textarea class="form__textarea" name="mensaje" id="mensaje" cols="30" rows="10" data-tipo="mensaje" placeholder="mensaje" autocomplete="off" required maxlength="300" title="Solo se pueden hasta 300 caracteres"></textarea>
+                                <label class="form__label--textarea" for="mensaje">Mensaje</label>
+                                <span class="form__textarea__message__error">Este campo no es válido</span>
+                            </div>
+                        </fieldset>
+                        <button type="submit" class="btnform">Enviar Mensaje <i class="color__icon fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="rodapie">
+                <div class="container rodapie__container">
+                    <h3 class="rodapie__title">Desarrollado por Felipe Arroyo <br>2023</h3>
+                </div>
+            </div>
+        </footer>
+    </div>
+<script type="module" src="./assets/js/app.js"></script>
+</body>
+</html>

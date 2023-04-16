@@ -1,0 +1,30 @@
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+    /* Colors */
+   --color-bg-primary: #F5F5F5;
+   --color-bg-secundary: #EAF2FD;
+   --color-bg-third: #FFFFFF;
+   --color-primary:#464646;
+   --color-secundary: #2A7AE4;
+   --color-third: #FFFFFF;
+   --color-warning: #df2525;
+
+
+   /* bold */
+   --weight-small:500;
+   --weight-middle:600;
+   --weight-high:700;
+
+   /* font family */
+   --font-family-main: 'Raleway';
+
+   /* size's */
+   --font-size-sm:1.4rem;
+   --font-size-md:1.6rem;
+   --font-size-lg:2.2rem;
+   --font-size-vlg:3.2rem;
+   --font-size-ulg:5.2rem;
+  
+
+}

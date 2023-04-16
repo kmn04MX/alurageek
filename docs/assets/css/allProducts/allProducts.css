@@ -1,0 +1,29 @@
+.product__container{
+    margin-top: 20px;
+    padding-bottom: 0;
+}
+.product__all{
+    margin-top: 20px;
+}
+
+.btnlink--productall__width{
+    width: 130px;
+    
+}
+
+.box--product__width{
+    width: calc(50% - 5px);
+    margin-bottom: 64px;
+}
+
+@media screen and (min-width:768px){
+    .box--product__width{
+        width: calc(33.3% - 5px);
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .box--product__width{
+        width: calc(16.6% - 5px);
+    }
+}

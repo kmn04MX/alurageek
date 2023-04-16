@@ -1,0 +1,81 @@
+.form__inputs{
+    margin-top: 15px;
+    position: relative;
+}
+
+.form__input{
+    width: 100%;
+    height: 56px;
+    background-color: var(--color-bg-third);
+    color: var(--color-primary);
+    border: 0;
+    font-size: 1.6rem;
+    border-bottom: 2px solid var(--color-secundary);
+    padding-top: 25px;
+    padding-left: 10px;
+}
+
+.form__input:focus{
+    outline: none;
+}
+
+.form__input::placeholder{
+    visibility: hidden;
+}
+
+.form__input--label{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: var(--color-primary);
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+.form__input__message__error{
+    font-size: 1.2rem;
+    display: none;
+}
+
+
+
+.form__input:not(:placeholder-shown) + .form__input--label,
+.form__input:focus + .form__input--label {
+  font-size: 1.3rem;
+  top: 0.25rem;
+  transition: all 0.25s;
+  font-weight: bold;
+  color:  var(--color-secundary);
+}
+
+
+.form__inputs--invalid {
+    margin-bottom: 0.5rem;
+  }
+  
+
+  .form__inputs--invalid .form__input {
+    border-bottom: 2px solid var(--color-warning);
+  }
+  
+
+  .form__inputs--invalid .form__input--label {
+    color: var(--color-warning);
+  }
+  
+  .form__inputs--invalid > .form__input:not(:placeholder-shown) + .footer__input--label,
+  .form__inputs--invalid > .form__input:focus + .form__input--label {
+    color: var(--color-warning);
+}
+
+  .form__input--label--invalid{
+    color: var(--color-warning);
+  }
+ 
+
+  .form__inputs--invalid .form__input__message__error {
+    color: var(--color-warning);
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+  }
