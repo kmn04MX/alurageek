@@ -2,7 +2,7 @@ import { transitionSearch } from "./transitionSearch.js";
 import { changeClass } from "./changeClassSearch.js";
 import { validaInput } from "./validaForm.js";
 import { validaTextarea } from "./validaForm.js";
-import { boton } from "./btn.js";
+import { boton } from "./btnForm.js";
 
 const transition = () =>{
     const pantallaNavegador = window.outerWidth;
@@ -53,3 +53,4 @@ transition();
 validInput();
 validTextarea();
 boton();
+

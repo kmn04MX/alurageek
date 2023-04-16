@@ -5,7 +5,7 @@ export function transitionSearch(){
     const headerContainer = document.querySelector('.header__container');
     const input = document.querySelector('.header__input');
     const iconX = document.querySelector('.header__icon');
-    const button = document.querySelector('.header__button')
+    const button = document.querySelector('.btnlink--header__button')
     const iconSearch = document.querySelector('.header__icon__search');
     iconX.addEventListener('click', () => {
         headerContainer.classList.toggle('header__container--activate');
@@ -20,14 +20,24 @@ export function transitionSearch(){
         iconX.classList.toggle('fa-x');
         iconX.classList.toggle('fa-magnifying-glass');
 
-        button.classList.toggle('header__button--activate');
-        button.classList.toggle('header__button');
+        button.classList.toggle('btnlink--header__button__activate');
+        button.classList.toggle('btnlink--header__button');
 
         iconSearch.classList.toggle('header__icon__search');
         iconSearch.classList.toggle('header__icon__search--activate');
 
         input.value="";
 
+        
     });
+    
+    
 }
+
+const searchActivate = document.querySelector(".header__icon__search");
+        searchActivate.addEventListener('click', () =>{
+            alert("Diste click al search");
+        });
+
+
 
