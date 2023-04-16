@@ -22,9 +22,9 @@ const changeClassSearch = () => {
 };
 
 const resizeScreen = () => {
-    window.addEventListener('resize', () =>{
+    /* window.addEventListener('resize', () =>{
         location.reload();
-    });
+    }); */
 };
 
 const validInput = () =>{
